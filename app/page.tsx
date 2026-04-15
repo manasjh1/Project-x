@@ -396,7 +396,7 @@ export default function LanguageLearningApp() {
                   className="w-full h-full object-cover"
                   poster ="/placeholder.jpg"
                 >
-                  <source src="Project x/Video 1.mp4" type="video/mp4" />
+                  <source src="/Video1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
