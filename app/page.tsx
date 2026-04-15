@@ -391,12 +391,14 @@ export default function LanguageLearningApp() {
             
             <div className="bg-card rounded-2xl p-5 shadow-sm border border-border">
               <div className="aspect-video bg-muted rounded-xl flex items-center justify-center overflow-hidden">
-                <button className="text-center active:scale-95 transition-transform">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
-                    <Play className="w-8 h-8 text-primary ml-1" />
-                  </div>
-                  <p className="text-sm text-muted-foreground">Tap to play</p>
-                </button>
+                <video
+                  controls
+                  className="w-full h-full object-cover"
+                  poster ="/placeholder.jpg"
+                >
+                  <source src="Project x/Video 1.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
 
